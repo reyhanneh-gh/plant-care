@@ -1,2 +1,19 @@
 @import "tailwindcss";
+
 /* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
+.myBg {
+    background: #fbfea5;
+    background: linear-gradient(143deg, rgba(251, 254, 165, 1) 0%, rgba(172, 227, 127, 1) 100%);
+}
+.myBorder{
+    border-radius: 69% 31% 62% 38% / 54% 57% 43% 46% ;
+}
+
+.test{
+    background-color: #faff68ac;
+    background-color: #68f5ffac;
+}
+
+.myShadow{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}

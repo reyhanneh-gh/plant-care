@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "name": "Bird\u2019s Nest Fern",
+    "scientific_name": "Asplenium nidus",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 2,
+    "name": "Jade Plant",
+    "scientific_name": "Crassula ovata",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 3,
+    "name": "Alocasia Polly",
+    "scientific_name": "Alocasia amazonica",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 4,
+    "name": "String of Hearts",
+    "scientific_name": "Ceropegia woodii",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 5,
+    "name": "English Ivy",
+    "scientific_name": "Hedera helix",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 6,
+    "name": "Umbrella Tree",
+    "scientific_name": "Schefflera actinophylla",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 7,
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 8,
+    "name": "Ice Plant",
+    "scientific_name": "Delosperma cooperi",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 9,
+    "name": "Cast Iron Plant",
+    "scientific_name": "Aspidistra elatior",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 10,
+    "name": "Peace Lily Sensation",
+    "scientific_name": "Spathiphyllum floribundum",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 11,
+    "name": "Kalanchoe",
+    "scientific_name": "Kalanchoe blossfeldiana",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 12,
+    "name": "Cactus Mix",
+    "scientific_name": "Various Cactaceae",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 13,
+    "name": "Dracaena Janet Craig",
+    "scientific_name": "Dracaena deremensis",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 14,
+    "name": "Calathea Orbifolia",
+    "scientific_name": "Calathea orbifolia",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 15,
+    "name": "Lucky Bamboo",
+    "scientific_name": "Dracaena sanderiana",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 16,
+    "name": "Christmas Cactus",
+    "scientific_name": "Schlumbergera truncata",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 17,
+    "name": "Sedum",
+    "scientific_name": "Sedum spectabile",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 18,
+    "name": "Desert Rose",
+    "scientific_name": "Adenium obesum",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 19,
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 20,
+    "name": "Yucca",
+    "scientific_name": "Yucca elephantipes",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 21,
+    "name": "Hens and Chicks",
+    "scientific_name": "Sempervivum tectorum",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 22,
+    "name": "Aloe Ferox",
+    "scientific_name": "Aloe ferox",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 23,
+    "name": "Swiss Cheese Plant",
+    "scientific_name": "Monstera adansonii",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 24,
+    "name": "Lithops",
+    "scientific_name": "Lithops karasmontana",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 25,
+    "name": "Schefflera",
+    "scientific_name": "Schefflera arboricola",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 26,
+    "name": "String of Pearls",
+    "scientific_name": "Senecio rowleyanus",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 27,
+    "name": "Pilea",
+    "scientific_name": "Pilea peperomioides",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 28,
+    "name": "Arrowhead Plant",
+    "scientific_name": "Syngonium podophyllum",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 29,
+    "name": "Barrel Cactus",
+    "scientific_name": "Ferocactus wislizeni",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 30,
+    "name": "Spider Plant",
+    "scientific_name": "Chlorophytum comosum",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 31,
+    "name": "Euphorbia Trigona",
+    "scientific_name": "Euphorbia trigona",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 32,
+    "name": "Burro\u2019s Tail",
+    "scientific_name": "Sedum morganianum",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 33,
+    "name": "Zebra Haworthia",
+    "scientific_name": "Haworthia fasciata",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 34,
+    "name": "Parlor Palm",
+    "scientific_name": "Chamaedorea elegans",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 35,
+    "name": "Aglaonema Red",
+    "scientific_name": "Aglaonema siam aurora",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 36,
+    "name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 37,
+    "name": "Crown of Thorns",
+    "scientific_name": "Euphorbia milii",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 38,
+    "name": "Ponytail Palm (Sun)",
+    "scientific_name": "Beaucarnea recurvata",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 39,
+    "name": "Money Tree",
+    "scientific_name": "Pachira aquatica",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 40,
+    "name": "Bird of Paradise",
+    "scientific_name": "Strelitzia reginae",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 41,
+    "name": "Portulaca",
+    "scientific_name": "Portulaca grandiflora",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 42,
+    "name": "Spiderwort",
+    "scientific_name": "Tradescantia zebrina",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 43,
+    "name": "Monstera Deliciosa",
+    "scientific_name": "Monstera deliciosa",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 44,
+    "name": "Prickly Pear Cactus",
+    "scientific_name": "Opuntia microdasys",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 45,
+    "name": "Chinese Evergreen",
+    "scientific_name": "Aglaonema commutatum",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 46,
+    "name": "Prayer Plant",
+    "scientific_name": "Maranta leuconeura",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 47,
+    "name": "Heartleaf Philodendron",
+    "scientific_name": "Philodendron scandens",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 48,
+    "name": "Dumb Cane",
+    "scientific_name": "Dieffenbachia amoena",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 49,
+    "name": "Croton",
+    "scientific_name": "Codiaeum variegatum",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 50,
+    "name": "Saguaro Cactus",
+    "scientific_name": "Carnegiea gigantea",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 51,
+    "name": "Swiss Cheese Vine",
+    "scientific_name": "Monstera adansonii",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 52,
+    "name": "Ficus Audrey",
+    "scientific_name": "Ficus benghalensis",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 53,
+    "name": "Aloe Aristata",
+    "scientific_name": "Aloe aristata",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 54,
+    "name": "Philodendron",
+    "scientific_name": "Philodendron hederaceum",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 55,
+    "name": "African Violet",
+    "scientific_name": "Saintpaulia ionantha",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 56,
+    "name": "Staghorn Fern",
+    "scientific_name": "Platycerium bifurcatum",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 57,
+    "name": "Pothos",
+    "scientific_name": "Epipremnum aureum",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 58,
+    "name": "Ponytail Palm",
+    "scientific_name": "Beaucarnea recurvata",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 59,
+    "name": "Peace Lily",
+    "scientific_name": "Spathiphyllum wallisii",
+    "sunlight": "low light",
+    "watering": "every 2-3 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 60,
+    "name": "Dracaena Marginata",
+    "scientific_name": "Dracaena marginata",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 61,
+    "name": "Lipstick Plant",
+    "scientific_name": "Aeschynanthus radicans",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 62,
+    "name": "Boston Fern",
+    "scientific_name": "Nephrolepis exaltata",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 63,
+    "name": "String of Bananas",
+    "scientific_name": "Senecio radicans",
+    "sunlight": "bright indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 64,
+    "name": "Echeveria",
+    "scientific_name": "Echeveria elegans",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 65,
+    "name": "Snake Plant",
+    "scientific_name": "Sansevieria trifasciata",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 66,
+    "name": "Oxalis Triangularis",
+    "scientific_name": "Oxalis triangularis",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": true
+  },
+  {
+    "id": 67,
+    "name": "Fiddle Leaf Fig",
+    "scientific_name": "Ficus lyrata",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 68,
+    "name": "Hedgehog Cactus",
+    "scientific_name": "Echinocereus engelmannii",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 69,
+    "name": "Agave",
+    "scientific_name": "Agave americana",
+    "sunlight": "full sun",
+    "watering": "every 2-3 weeks",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 70,
+    "name": "Anthurium",
+    "scientific_name": "Anthurium andraeanum",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": false
+  },
+  {
+    "id": 71,
+    "name": "Bromeliad",
+    "scientific_name": "Guzmania lingulata",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 72,
+    "name": "Hoya",
+    "scientific_name": "Hoya carnosa",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 73,
+    "name": "Dieffenbachia",
+    "scientific_name": "Dieffenbachia seguine",
+    "sunlight": "medium indirect",
+    "watering": "twice a week",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 74,
+    "name": "Rhipsalis",
+    "scientific_name": "Rhipsalis baccifera",
+    "sunlight": "bright indirect",
+    "watering": "every 2 weeks",
+    "difficulty": "moderate",
+    "pet_friendly": true
+  },
+  {
+    "id": 75,
+    "name": "Peperomia",
+    "scientific_name": "Peperomia obtusifolia",
+    "sunlight": "medium indirect",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 76,
+    "name": "ZZ Plant",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 77,
+    "name": "Pincushion Cactus",
+    "scientific_name": "Mammillaria hahniana",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "advanced",
+    "pet_friendly": false
+  },
+  {
+    "id": 78,
+    "name": "Heartleaf Fern",
+    "scientific_name": "Hemionitis arifolia",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": true
+  },
+  {
+    "id": 79,
+    "name": "Golden Barrel Cactus",
+    "scientific_name": "Echinocactus grusonii",
+    "sunlight": "full sun",
+    "watering": "monthly",
+    "difficulty": "moderate",
+    "pet_friendly": false
+  },
+  {
+    "id": 80,
+    "name": "Rattlesnake Plant",
+    "scientific_name": "Goeppertia insignis",
+    "sunlight": "low light",
+    "watering": "weekly",
+    "difficulty": "easy",
+    "pet_friendly": true
+  }
+]

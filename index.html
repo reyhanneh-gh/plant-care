@@ -58,11 +58,11 @@
             </div>
             <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5">
             </div>
-            <figure>
-                
-                
-                
-            </figure>
+            <!-- <figure>
+<img src="src/assets/img/Aloe Vera.webp" alt="">
+
+
+            </figure> -->
         </section>
     </div>
 </body>
@@ -86,9 +86,21 @@
                     <div>
                       <div><img src="src/assets/img/sun.png" alt=""><h3>Sunlight: </h3><p>${val.sunlight}</p></div>  
                       <div><img src="src/assets/img/water.png" alt=""><h3>Watering: </h3><p>${val.watering}</p></div>  
-                      <div><img src="src/assets/img/cat.png" alt=""><h3>Pet Friendly: </h3><p>${val.pet_friendly}</p></div>  
+                      <div><img src="src/assets/img/cat.png" alt=""><h3>Pet Friendly: </h3><span class="material-symbols-outlined petMark"></span></div>  
                     </div>
+                    <figure><img src="${val.image}" alt=""></figure>
                     `
+                    console.log(val.image);
+
+                    let petMark = plantData.querySelector('.petMark')
+                    if (val.pet_friendly == true) {
+                        petMark.innerText = 'check'
+                        petMark.style.color = "green"
+                    } else {
+                        petMark.innerText = 'close'
+                        petMark.style.color = "red"
+                    }
+
                     plantList.appendChild(plantData)
                 })
 

@@ -168,7 +168,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image": "src/assets/img/Aloe-Vera.webp"
   },
   {
     "id": 20,
@@ -280,7 +281,7 @@
   },
   {
     "id": 32,
-    "name": "Burro\u2019s Tail",
+    "name": "Burro's Tail",
     "scientific_name": "Sedum morganianum",
     "sunlight": "bright indirect",
     "watering": "weekly",

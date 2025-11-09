@@ -20,4 +20,20 @@ A responsive and interactive plant information webpage built with **HTML**, **CS
 ---
 
 ### 👩‍💻 About the Project  
-This project was created to explore **data fetching with the Fetch API** and w
+This project was created to explore **data fetching with the Fetch API** and working with **local JSON files** in JavaScript. I wanted to design a simple yet elegant way to present plant care information — something informative, fast, and visually calm.  
+Building this helped me practice filtering logic, DOM updates, and custom interface design while keeping accessibility and clarity in focus.  
+
+---
+
+### 🛠️ Tech Stack  
+- HTML5  
+- CSS3  
+- JavaScript (Fetch API)  
+- Local JSON Data  
+
+---
+
+### 🧑‍🎨 Credits  
+**Developed by**: Reyhaneh Ghalambor  
+**Date**: November 9, 2025  
+**Mentor**: Parsa Ghorbanian  

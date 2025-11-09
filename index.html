@@ -74,8 +74,13 @@
         fetch('src/home_plants_80_unique.json')
             .then(response => response.json())
             .then(data => {
-                data.map((val) => {
-                    const plantData = document.createElement('div')
+                
+                const filtered = data.filter(plant =>
+                    plant.name.toLowerCase().includes(searchRes)
+                )
+
+                filtered.forEach(val => {
+                    const plantData = document.createElement('div');
                     plantData.classList.add('resStyle')
                     plantData.innerHTML = `
                     <div class="flex items-center gap-[15px] w-full border-b border-b-white pb-2.5 mb-2.5">

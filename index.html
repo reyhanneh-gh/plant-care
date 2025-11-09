@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 
-<body class="w-full h-fit flex justify-center items-center p-5 myFont bg-[#a6d16a]">
+<body class="w-full h-fit flex justify-center items-center p-2.5 md:p-5 myFont bg-[#a6d16a]">
     <div class="w-full h-fit rounded-[10px] flex flex-wrap justify-center items-center bg-amber-50 myShadow">
         <!-- ///////////////////////////first page///////////////////////// -->
         <section class="w-full h-dvh flex flex-wrap justify-center items-center mt-[20px] md:mt-0">
@@ -22,7 +22,7 @@
                 <h2 class="w-[70%] text-center capitalize text-green-800 md:text-[20px] lg:text-[25px]">Keep your green
                     friends healthy with</h2>
                 <h1
-                    class="w-[70%] text-center capitalize font-extrabold text-[50px] md:text-[70px] lg:text-[80px] bg-linear-to-tr from-[#fbfea5] to-[#a6d16a] bg-clip-text text-transparent">
+                    class="w-fit text-center capitalize font-extrabold text-[50px] md:text-[70px] lg:text-[80px] bg-linear-to-tr from-[#fbfea5] to-[#a6d16a] bg-clip-text text-transparent">
                     Plant Care</h1>
                 <h3 class="w-[70%] text-center capitalize text-green-800 md:text-[20px] lg:text-[25px]">Discover
                     personalized care for your plants and watch them flourish.
@@ -32,7 +32,7 @@
                         href="">Get Started</a>
                 </div>
             </div>
-            <div class="w-[90%] h-1/2 md:w-1/2 md:h-full flex justify-center items-center">
+            <div class="w-[80%] h-1/2 md:w-1/2 md:h-full flex justify-center items-center">
                 <div class="size-[300px] md:sixe-[400px] lg:size-[480px] relative myBg myBorder myShadow">
                     <figure class="w-[120%] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                         <img class="object-cover" src="src/assets/img/Project (20251030114452).png" alt="">
@@ -45,7 +45,7 @@
             <div class="w-[80%] h-[3px] rounded-2xl myBg"></div>
             <header class="w-full h-fit flex flex-wrap justify-center items-center my-[20px]">
 
-                <h4 class="w-[90%] md:w-[60%] text-center capitalize text-[20px] text-green-800 pt-5">search your plants
+                <h4 class="w-[80%] md:w-[60%] text-center capitalize text-[20px] text-green-800 pt-5">search your plants
                     by their common or scientific names.</h4>
             </header>
             <div class="w-[85%] md:w-[50%] h-fit mt-5 relative">
@@ -60,6 +60,7 @@
             </div>
         </section>
     </div>
+
 </body>
 <script>
     let inp = document.querySelector('input')
@@ -77,13 +78,29 @@
                     const plantData = document.createElement('div')
                     plantData.classList.add('resStyle')
                     plantData.innerHTML = `
-                    <div><h2>name:  </h2><p>${val.name}</p></div>
-                    <div>
-                      <div><img src="src/assets/img/sun.png" alt=""><h3>Sunlight: </h3><p>${val.sunlight}</p></div>  
-                      <div><img src="src/assets/img/water.png" alt=""><h3>Watering: </h3><p>${val.watering}</p></div>  
-                      <div><img src="src/assets/img/cat.png" alt=""><h3>Pet Friendly: </h3><span class="material-symbols-outlined petMark"></span></div>  
-                    </div>
-                    <figure><img src="${val.image}" alt=""></figure>
+                    <div class="flex items-center gap-[15px] w-full border-b border-b-white pb-2.5 mb-2.5">
+        <h2 class="h-fit text-white uppercase font-extrabold">name: </h2>
+        <p class="text-[#606060]">${val.name}</p>
+    </div>
+    <div class="flex items-center justify-between gap-[15px] w-full md:w-[65%] h-fit p-5 flex-wrap bg-[#fefce8] rounded-[8px] *:w-full *:flex *:items-center *:gap-[15px]">
+        <div>
+            <img class="size-[30px]" src="src/assets/img/sun.png" alt="">
+            <h3 class="text-[#a6d16a] capitalize font-extrabold">Sunlight: </h3>
+            <p class="capitalize text-[#606060]">${val.sunlight}</p>
+        </div>
+        <div>
+            <img class="size-[30px]" src="src/assets/img/water.png" alt="">
+            <h3 class="text-[#a6d16a] capitalize font-extrabold">Watering: </h3>
+            <p class="capitalize text-[#606060]">${val.watering}</p>
+        </div>
+        <div>
+            <img class="size-[30px]" src="src/assets/img/cat.png" alt="">
+            <h3 class="text-[#a6d16a] capitalize font-extrabold">Pet Friendly: </h3><span class="material-symbols-outlined petMark"></span>
+        </div>
+    </div>
+    <figure class="w-[50%] md:w-[30%] h-fit overflow-hidden rounded-[8px] border border-[#fefce8] myShadow2">
+        <img class="object-cover object-center" src="${val.image}" alt="">
+    </figure>
                     `
                     console.log(val.image);
 

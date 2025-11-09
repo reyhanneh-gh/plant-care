@@ -58,11 +58,6 @@
             </div>
             <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5">
             </div>
-            <!-- <figure>
-<img src="src/assets/img/Aloe Vera.webp" alt="">
-
-
-            </figure> -->
         </section>
     </div>
 </body>
@@ -75,7 +70,7 @@
         let searchRes = inp.value.trim()
         if (searchRes == "") return
 
-        fetch('src/home_plants_100_unique.json')
+        fetch('src/home_plants_80_unique.json')
             .then(response => response.json())
             .then(data => {
                 data.map((val) => {

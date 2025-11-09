@@ -1,12 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Bird\u2019s Nest Fern",
+    "name": "Bird's Nest Fern",
     "scientific_name": "Asplenium nidus",
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/1.jpg"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/2.webp"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/alocasia-polly.webp"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/String of Hearts.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/English Ivy.webp"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Umbrella Tree.webp"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Areca Palm.webp"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Ice Plant.webp"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Cast Iron Plant.jpg"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Peace Lily Sensation.jpg"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Kalanchoe.webp"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Cactus Mix.jpg"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Dracaena Janet Craig.jpg"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Calathea Orbifolia.jpg"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Lucky Bamboo.webp"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Christmas Cactus.jpg"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/sedum.jpg"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Desert Rose.webp"
   },
   {
     "id": 19,
@@ -178,7 +196,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Yucca.jpg"
   },
   {
     "id": 21,
@@ -187,7 +206,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/hens and chicks.jpg"
   },
   {
     "id": 22,
@@ -196,7 +216,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Aloe Ferox.webp"
   },
   {
     "id": 23,
@@ -205,7 +226,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Swiss Cheese Plant.webp"
   },
   {
     "id": 24,
@@ -214,7 +236,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Lithops.webp" 
   },
   {
     "id": 25,
@@ -223,7 +246,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Schefflera.webp"
   },
   {
     "id": 26,
@@ -232,7 +256,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/String of Pearls.jpg"
   },
   {
     "id": 27,
@@ -241,7 +266,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Pilea.avif"
   },
   {
     "id": 28,
@@ -250,7 +276,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Arrowhead Plant.webp"
   },
   {
     "id": 29,
@@ -259,7 +286,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Barrel Cactus.webp"
   },
   {
     "id": 30,
@@ -268,7 +296,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Spider Plant.jpg"
   },
   {
     "id": 31,
@@ -277,7 +306,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Euphorbia Trigona.avif"
   },
   {
     "id": 32,
@@ -286,7 +316,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Burro's Tail.jpg"
   },
   {
     "id": 33,
@@ -295,7 +326,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Zebra Haworthia.webp"
   },
   {
     "id": 34,
@@ -304,7 +336,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Parlor Palm.webp"
   },
   {
     "id": 35,
@@ -313,7 +346,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Aglaonema Red.jpeg"
   },
   {
     "id": 36,
@@ -322,7 +356,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Rubber Plant.webp"
   },
   {
     "id": 37,
@@ -331,7 +366,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Euphorbia milii.webp"
   },
   {
     "id": 38,
@@ -340,7 +376,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Beaucarnea recurvata.jpg"
   },
   {
     "id": 39,
@@ -349,7 +386,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Pachira aquatica.webp"
   },
   {
     "id": 40,
@@ -358,7 +396,9 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Strelitzia reginae.jpg"
+
   },
   {
     "id": 41,
@@ -367,7 +407,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Portulaca grandiflora.jpg"
   },
   {
     "id": 42,
@@ -376,7 +417,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Tradescantia zebrina.webp"
   },
   {
     "id": 43,
@@ -385,7 +427,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Monstera deliciosa.webp"
   },
   {
     "id": 44,
@@ -394,7 +437,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Opuntia microdasys.webp"
   },
   {
     "id": 45,
@@ -403,7 +447,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Aglaonema commutatum.jpeg"
   },
   {
     "id": 46,
@@ -412,7 +457,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Maranta leuconeura.webp"
   },
   {
     "id": 47,
@@ -421,7 +467,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Philodendron scandens.jpg"
   },
   {
     "id": 48,
@@ -430,7 +477,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Dieffenbachia amoena.webp"
   },
   {
     "id": 49,
@@ -439,7 +487,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Codiaeum variegatum.jpg"
   },
   {
     "id": 50,
@@ -448,7 +497,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Carnegiea gigantea.jpg"
   },
   {
     "id": 51,
@@ -457,7 +507,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Swiss Cheese Plant.webp"
   },
   {
     "id": 52,
@@ -466,7 +517,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Ficus benghalensis.webp"
   },
   {
     "id": 53,
@@ -475,7 +527,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Aloe aristata.jpg"
   },
   {
     "id": 54,
@@ -484,7 +537,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Philodendron hederaceum.jpg"
   },
   {
     "id": 55,
@@ -493,7 +547,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Saintpaulia ionantha.jpg"
   },
   {
     "id": 56,
@@ -502,7 +557,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Platycerium bifurcatum.webp"
   },
   {
     "id": 57,
@@ -511,7 +567,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Epipremnum aureum.jpg"
   },
   {
     "id": 58,
@@ -520,7 +577,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Beaucarnea recurvata.jpg"
   },
   {
     "id": 59,
@@ -529,7 +587,8 @@
     "sunlight": "low light",
     "watering": "every 2-3 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Spathiphyllum wallisii.webp"
   },
   {
     "id": 60,
@@ -538,7 +597,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Dracaena marginata.avif"
   },
   {
     "id": 61,
@@ -547,7 +607,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Aeschynanthus radicans.webp"
   },
   {
     "id": 62,
@@ -556,7 +617,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Nephrolepis exaltata.webp"
   },
   {
     "id": 63,
@@ -565,7 +627,8 @@
     "sunlight": "bright indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Senecio radicans.jpg"
   },
   {
     "id": 64,
@@ -574,7 +637,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Echeveria elegans.jpg"
   },
   {
     "id": 65,
@@ -583,7 +647,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Sansevieria trifasciata.jpg"
   },
   {
     "id": 66,
@@ -592,7 +657,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "advanced",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Oxalis triangularis.webp"
   },
   {
     "id": 67,
@@ -601,7 +667,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Ficus lyrata.webp"
   },
   {
     "id": 68,
@@ -610,7 +677,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Echinocereus engelmannii.jpg"
   },
   {
     "id": 69,
@@ -619,7 +687,8 @@
     "sunlight": "full sun",
     "watering": "every 2-3 weeks",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Agave americana.avif"
   },
   {
     "id": 70,
@@ -628,7 +697,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Anthurium andraeanum.webp"
   },
   {
     "id": 71,
@@ -637,7 +707,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Guzmania lingulata.webp"
   },
   {
     "id": 72,
@@ -646,7 +717,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Hoya carnosa.webp"
   },
   {
     "id": 73,
@@ -655,7 +727,8 @@
     "sunlight": "medium indirect",
     "watering": "twice a week",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Dieffenbachia seguine.jpg"
   },
   {
     "id": 74,
@@ -664,7 +737,8 @@
     "sunlight": "bright indirect",
     "watering": "every 2 weeks",
     "difficulty": "moderate",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Rhipsalis baccifera.webp"
   },
   {
     "id": 75,
@@ -673,7 +747,8 @@
     "sunlight": "medium indirect",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Peperomia obtusifolia.webp"
   },
   {
     "id": 76,
@@ -682,7 +757,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Zamioculcas zamiifolia.webp"
   },
   {
     "id": 77,
@@ -691,7 +767,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "advanced",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Mammillaria hahniana.jpg"
   },
   {
     "id": 78,
@@ -700,7 +777,8 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Hemionitis arifolia.jpg"
   },
   {
     "id": 79,
@@ -709,7 +787,8 @@
     "sunlight": "full sun",
     "watering": "monthly",
     "difficulty": "moderate",
-    "pet_friendly": false
+    "pet_friendly": false,
+    "image":"src/assets/img/Echinocactus grusonii.webp"
   },
   {
     "id": 80,
@@ -718,6 +797,7 @@
     "sunlight": "low light",
     "watering": "weekly",
     "difficulty": "easy",
-    "pet_friendly": true
+    "pet_friendly": true,
+    "image":"src/assets/img/Goeppertia insignis.jpg"
   }
 ]

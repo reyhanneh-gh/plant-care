@@ -4,7 +4,7 @@ A responsive and interactive plant information webpage built with **HTML**, **CS
 ---
 
 ## 🔗 Live Demo  
-[View Plant Care Finder](https://reyhanneh-gh.github.io/plant-care/) 🌱  
+[View Plant Care](https://reyhanneh-gh.github.io/plant-care/) 🌱  
 
 ---
 

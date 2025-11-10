@@ -48,13 +48,12 @@
                 <h4 class="w-[80%] md:w-[60%] text-center capitalize text-[20px] text-green-800 pt-5">search your plants
                     by their common or scientific names.</h4>
             </header>
-            <div class="w-[85%] md:w-[50%] h-fit mt-5 flex flex-wrap justify-center items-center">
+            <div class="w-[85%] md:w-[50%] h-fit mt-5 flex flex-wrap justify-center items-center relative">
                 <input
                     class="w-full h-fit p-2.5 bg-yellow-100 shadow shadow-[#a6d16a] rounded-full placeholder:text-gray-400"
-                    type="text" placeholder="e.g. Aloe Vera">
-                <div id="searchBtn" class="w-fit h-fit px-5 py-2 myBg rounded-full mt-5 cursor-pointer">
-                    <span class="material-symbols-outlined text-white">search</span>
-                </div>
+                    type="search" placeholder="e.g. Aloe Vera">
+                <span id="searchBtn"
+                    class="material-symbols-outlined absolute right-[10px] top-[50%] translate-y-[-50%] bg-yellow-100 cursor-pointer text-[#a6d16a] z-50">search</span>
             </div>
             <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5"></div>
         </section>
@@ -99,17 +98,17 @@
                       </div>
                       <div>
                           <img class="size-[30px]" src="src/assets/img/cat.png" alt="">
-                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Pet Friendly: </h3><span   class="material-symbols-outlined petMark"></span>
+                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Pet Friendly: </h3><span class="material-symbols-outlined petMark"></span>
                       </div>
                       <div>
                          <img class="size-[30px]" src="src/assets/img/leaf.png" alt="">
                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Difficulty: </h3>
-                         <div class="bar w-[100px] h-[10px] border border-[#a6d16a] rounded-full p-[1px]">
+                         <div class="bar w-[100px] h-[12px] border-2 border-[#a6d16a] rounded-full p-[1px]">
                              <div class="h-full w-full rounded-full"></div>
                          </div>
                       </div>
                     </div>
-                    <figure class="w-[50%] md:w-[30%] h-fit overflow-hidden rounded-[8px] border border-[#fefce8] myShadow2">
+                    <figure class="w-[50%] md:w-[30%] h-fit overflow-hidden rounded-[8px] border-2 border-[#a6d16a] myShadow2">
                         <img class="object-cover object-center" src="${val.image}" alt="">
                     </figure>
                     `

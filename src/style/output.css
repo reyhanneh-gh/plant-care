@@ -185,6 +185,9 @@
   .left-\[50\%\] {
     left: 50%;
   }
+  .z-50 {
+    z-index: 50;
+  }
   .m-48 {
     margin: calc(var(--spacing) * 48);
   }
@@ -231,9 +234,6 @@
   }
   .h-\[3px\] {
     height: 3px;
-  }
-  .h-\[5px\] {
-    height: 5px;
   }
   .h-\[10px\] {
     height: 10px;
@@ -619,6 +619,14 @@
 }
 .myShadow2 {
   box-shadow: -10px 10px 0px #a6d16a;
+}
+.moderateBg {
+  background: #fbfea5;
+  background: linear-gradient(143deg, rgba(251, 254, 165, 1) 0%, #ffea00 50%);
+}
+.advancedBg {
+  background: #fbfea5;
+  background: linear-gradient(143deg, rgba(251, 254, 165, 1) 0%, #ff8400 50%);
 }
 @property --tw-translate-x {
   syntax: "*";

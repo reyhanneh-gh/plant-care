@@ -65,7 +65,7 @@
     const plantList = document.getElementById('plantList')
 
     searchBtn.addEventListener('click', () => {
-        let searchRes = inp.value.trim()
+        let searchRes = inp.value.trim().toLowerCase()
         if (searchRes == "") return
 
         fetch('src/home_plants_80_unique.json')

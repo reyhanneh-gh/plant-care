@@ -24,9 +24,9 @@
 }
 
 .resStyle {
-  @apply w-full md:w-10/12 lg:w-[45%] h-fit bg-[#a6d16a] rounded-[10px] flex flex-wrap justify-center gap-y-2.5 md:justify-between items-center p-5;
+  @apply w-full md:w-10/12 lg:w-[45%] h-fit bg-[#fefce8] rounded-[10px] flex flex-wrap justify-center gap-y-2.5 md:justify-between items-center p-5 border-2 border-[#a6d16a];
 }
 
 .myShadow2{
-   box-shadow: -10px 10px 0px #fefce8; 
+   box-shadow: -10px 10px 0px #a6d16a; 
 }

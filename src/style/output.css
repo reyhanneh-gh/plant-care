@@ -304,15 +304,15 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-b {
+  .border-b-2 {
     border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
   }
   .border-\[\#fefce8\] {
     border-color: #fefce8;
   }
-  .border-b-white {
-    border-bottom-color: var(--color-white);
+  .border-b-\[\#a6d16a\] {
+    border-bottom-color: #a6d16a;
   }
   .bg-\[\#a6d16a\] {
     background-color: #a6d16a;
@@ -553,7 +553,10 @@
   justify-content: center;
   row-gap: calc(var(--spacing) * 2.5);
   border-radius: 10px;
-  background-color: #a6d16a;
+  border-style: var(--tw-border-style);
+  border-width: 2px;
+  border-color: #a6d16a;
+  background-color: #fefce8;
   padding: calc(var(--spacing) * 5);
   @media (width >= 48rem) {
     width: calc(10/12 * 100%);
@@ -566,7 +569,7 @@
   }
 }
 .myShadow2 {
-  box-shadow: -10px 10px 0px #fefce8;
+  box-shadow: -10px 10px 0px #a6d16a;
 }
 @property --tw-translate-x {
   syntax: "*";

@@ -58,7 +58,6 @@
             <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5"></div>
         </section>
     </div>
-
 </body>
 <script>
     let inp = document.querySelector('input')
@@ -76,6 +75,16 @@
                 const filtered = data.filter(plant =>
                     plant.name.toLowerCase().includes(searchRes)
                 )
+
+                if (filtered.length === 0) {
+                    console.error('plant not found.');
+                    plantList.innerHTML = `
+                    <div class="resStyle p-5 flex justify-center items-center flex-wrap *:text-[#a6d16a]">
+                        <h3 class="w-full text-[#a6d16a] font-extrabold">Plant not found :(</h3>
+                        <p>We couldn’t find any results matching your search. Please check the spelling or try a different name.</p>
+                    </div>`
+
+                }
 
                 filtered.forEach(val => {
                     const plantData = document.createElement('div');
@@ -137,6 +146,10 @@
                     plantList.appendChild(plantData)
                 })
 
+
+            })
+            .catch(err => {
+                console.error('plant not found', err)
             })
     })
 </script>

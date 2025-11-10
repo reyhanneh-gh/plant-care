@@ -179,9 +179,6 @@
   .top-\[50\%\] {
     top: 50%;
   }
-  .right-\[10px\] {
-    right: 10px;
-  }
   .left-\[50\%\] {
     left: 50%;
   }
@@ -394,6 +391,9 @@
   }
   .p-\[1px\] {
     padding: 1px;
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);

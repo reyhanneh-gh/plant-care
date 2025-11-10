@@ -48,16 +48,15 @@
                 <h4 class="w-[80%] md:w-[60%] text-center capitalize text-[20px] text-green-800 pt-5">search your plants
                     by their common or scientific names.</h4>
             </header>
-            <div class="w-[85%] md:w-[50%] h-fit mt-5 relative">
+            <div class="w-[85%] md:w-[50%] h-fit mt-5 flex flex-wrap justify-center items-center">
                 <input
                     class="w-full h-fit p-2.5 bg-yellow-100 shadow shadow-[#a6d16a] rounded-full placeholder:text-gray-400"
-                    type="search" placeholder="e.g. Aloe Vera">
-
-                <button id="searchBtn"
-                    class="material-symbols-outlined absolute right-[10px] top-[50%] translate-y-[-50%] bg-yellow-100 cursor-pointer text-[#a6d16a] z-50">search</button>
+                    type="text" placeholder="e.g. Aloe Vera">
+                <div id="searchBtn" class="w-fit h-fit px-5 py-2 myBg rounded-full mt-5 cursor-pointer">
+                    <span class="material-symbols-outlined text-white">search</span>
+                </div>
             </div>
-            <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5">
-            </div>
+            <div id="plantList" class="w-full h-fit p-10 mt-[50px] flex flex-wrap justify-evenly gap-y-5"></div>
         </section>
     </div>
 
@@ -87,7 +86,7 @@
                        <h2 class="h-fit text-[#a6d16a] uppercase font-extrabold">name: </h2>
                        <p class="text-[#606060]">${val.name}</p>
                     </div>
-                    <div class="flex items-center justify-between gap-[15px] w-full md:w-[65%] h-fit p-5 flex-wrap bg-[#fefce8] rounded-[8px] *:w-full *:flex *:items-center *:gap-[15px]">
+                    <div class="flex items-center justify-between gap-[15px] w-full md:w-[65%] h-fit flex-wrap bg-[#fefce8] rounded-[8px] *:w-full *:flex *:items-center *:gap-[15px]">
                       <div>
                           <img class="size-[30px]" src="src/assets/img/sun.png" alt="">
                           <h3 class="text-[#a6d16a] capitalize font-extrabold">Sunlight: </h3>

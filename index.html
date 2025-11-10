@@ -100,19 +100,21 @@
                       </div>
                       <div>
                           <img class="size-[30px]" src="src/assets/img/cat.png" alt="">
-                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Pet Friendly: </h3><span   class="material-symbols-outlined petMark"></span>
+                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Pet Friendly: </h3><button   class="material-symbols-outlined petMark"></button>
                       </div>
                       <div>
-                          <img class="size-[30px]" src="src/assets/img/leaf.png" alt="">
-                          <h3 class="text-[#a6d16a] capitalize font-extrabold">Difficulty: </h3><span   class="material-symbols-outlined petMark"></span>
+                         <img class="size-[30px]" src="src/assets/img/leaf.png" alt="">
+                         <h3 class="text-[#a6d16a] capitalize font-extrabold">Difficulty: </h3>
+                         <div class="bar w-[100px] h-[10px] border border-[#a6d16a] rounded-full p-[1px]">
+                             <div class="h-full w-full rounded-full"></div>
+                         </div>
                       </div>
                     </div>
                     <figure class="w-[50%] md:w-[30%] h-fit overflow-hidden rounded-[8px] border border-[#fefce8] myShadow2">
                         <img class="object-cover object-center" src="${val.image}" alt="">
                     </figure>
                     `
-                    console.log(val.image);
-
+                    //pet-friendly mark
                     let petMark = plantData.querySelector('.petMark')
                     if (val.pet_friendly == true) {
                         petMark.innerText = 'check'
@@ -120,6 +122,18 @@
                     } else {
                         petMark.innerText = 'close'
                         petMark.style.color = "red"
+                    }
+                    //difficulty bar
+                    let diff = plantData.querySelector('.bar>div')
+                    if (val.difficulty == 'easy') {
+                        diff.style.width = '25%'
+                        diff.classList.add('myBg')
+                    } else if (val.difficulty == 'moderate') {
+                        diff.style.width = '50%'
+                        diff.classList.add('moderateBg')
+                    } else if (val.difficulty == 'advanced') {
+                        diff.style.width = '80%'
+                        diff.classList.add('advancedBg')
                     }
 
                     plantList.appendChild(plantData)

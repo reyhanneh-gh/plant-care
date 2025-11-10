@@ -24,9 +24,19 @@
 }
 
 .resStyle {
-  @apply w-full md:w-10/12 lg:w-[45%] h-fit bg-[#fefce8] rounded-[10px] flex flex-wrap justify-center gap-y-2.5 md:justify-between items-center p-5 border-2 border-[#a6d16a];
+    @apply w-full md:w-10/12 lg:w-[45%] h-fit bg-[#fefce8] rounded-[10px] flex flex-wrap justify-center gap-y-2.5 md:justify-between items-center p-5 border-2 border-[#a6d16a];
 }
 
-.myShadow2{
-   box-shadow: -10px 10px 0px #a6d16a; 
+.myShadow2 {
+    box-shadow: -10px 10px 0px #a6d16a;
+}
+
+.moderateBg {
+    background: #fbfea5;
+    background: linear-gradient(143deg, rgba(251, 254, 165, 1) 0%, #ffea00 50%);
+}
+
+.advancedBg {
+    background: #fbfea5;
+    background: linear-gradient(143deg, rgba(251, 254, 165, 1) 0%, #ff8400 50%);
 }

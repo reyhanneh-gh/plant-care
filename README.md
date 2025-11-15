@@ -36,4 +36,10 @@ Building this helped me practice filtering logic, DOM updates, and custom interf
 ### 🧑‍🎨 Credits  
 **Developed by**: Reyhaneh Ghalambor  
 **Date**: November 9, 2025  
-**Mentor**: Parsa Ghorbanian  
+**Mentor**: Parsa Ghorbanian
+
+---
+
+![Screenshot_15-11-2025_64516_](https://github.com/user-attachments/assets/a23d0e3c-5409-49aa-8f76-ceedeed49ed4)
+
+<img width="1899" height="867" alt="Screenshot 2025-11-15 064726" src="https://github.com/user-attachments/assets/92907d5d-f3c1-4d67-aef9-9719b49f7606" />
